@@ -5,10 +5,10 @@ read num1
 if [ $num1 -lt 10 ]
 then
 echo "This is single digit number"
-elif [[ $num1 -gt 9 && $num1 -lt 100]]
+elif [[ $num1 -gt 9 && $num1 -lt 100 ]]
 then 
 echo "This is double digit number"
-elif [[ $num1 -gt 99 && $num1 -lt 1000]]
+elif [[ $num1 -gt 99 && $num1 -lt 1000 ]]
 then
 echo "This is third digit number"
 else 
